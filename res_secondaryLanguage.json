@@ -1,0 +1,114 @@
+{
+  "basic_info": {
+    "description_header": "Hi, I'm Nimet",
+    "description": "Full stack web developer and Computer Engineering student at Bahir Dar Institute of Technology, building and deploying web and mobile applications for real clients. Currently a web development intern at Dream More, working with React.js, Tailwind CSS, Node.js, Express, and MongoDB[cite: 16]. Experienced with full-stack e-commerce platforms, booking systems, and management dashboards.",
+    "section_name": {
+      "about": "About Me",
+      "projects": "Projects",
+      "skills": "Skills & Expertise",
+      "experience": "Experience"
+    }
+  },
+  "projects": [
+    {
+      "title": "TanaGebeya E-commerce Platform",
+      "startDate": "2026",
+      "description": "A full-stack store with product management, shopping cart, payment integration, and admin dashboard[cite: 13, 16].",
+      "images": [
+        "images/portfolio/p1.jpg",
+        "images/portfolio/p2.jpg"
+      ],
+      "url": "https://github.com/niema-dev",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React.js"
+        },
+        {
+          "class": "devicon-php-plain",
+          "name": "PHP"
+        },
+        {
+          "class": "devicon-mysql-plain",
+          "name": "MySQL"
+        }
+      ]
+    },
+    {
+      "title": "HabeshaTour Management System",
+      "startDate": "2026",
+      "description": "Tour management system for booking tours, managing itineraries, and handling customer reservations[cite: 13, 16].",
+      "images": [
+        "images/portfolio/p1.jpg",
+        "images/portfolio/p2.jpg"
+      ],
+      "url": "https://github.com/niema-dev",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React.js"
+        },
+        {
+          "class": "devicon-php-plain",
+          "name": "PHP"
+        },
+        {
+          "class": "devicon-mysql-plain",
+          "name": "MySQL"
+        }
+      ]
+    },
+    {
+      "title": "Al-Munazzam Islamic To-Do App",
+      "startDate": "2025",
+      "description": "A purpose-driven task management application designed to help users plan their day with intention and discipline[cite: 13, 16].",
+      "images": [
+        "images/portfolio/p1.jpg",
+        "images/portfolio/p2.jpg"
+      ],
+      "url": "https://github.com/niema-dev",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React.js"
+        },
+        {
+          "class": "devicon-tailwindcss-plain",
+          "name": "TailwindCSS"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Dream More",
+      "title": "Web Developer Intern",
+      "years": "May 2026 - Present",
+      "mainTech": [
+        "React.js",
+        "Tailwind CSS"
+      ],
+      "technologies": [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Git",
+        "GitHub"
+      ]
+    },
+    {
+      "company": "Freelance",
+      "title": "Full Stack Web & Mobile Developer",
+      "years": "September 2026 - Present",
+      "mainTech": [
+        "React Native (Expo)"
+      ],
+      "technologies": [
+        "SQLite",
+        "Node.js",
+        "Express",
+        "Google Drive API"
+      ]
+    }
+  ]
+}
