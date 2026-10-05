@@ -16,28 +16,35 @@ class Projects extends Component {
     };
 
     let detailsModalClose = () => this.setState({ detailsModalShow: false });
-    if (this.props.resumeProjects && this.props.resumeBasicInfo) {
-      var sectionName = this.props.resumeBasicInfo.section_name.projects;
-      var projects = this.props.resumeProjects.map(function (projects) {
+
+    let sectionName = "Projects";
+    let projects = [];
+
+    if (this.props.resumeBasicInfo && this.props.resumeBasicInfo.section_name) {
+      sectionName = this.props.resumeBasicInfo.section_name.projects;
+    }
+
+    if (this.props.resumeProjects) {
+      projects = this.props.resumeProjects.map((project, i) => {
         return (
           <div
             className="col-sm-12 col-md-6 col-lg-4"
-            key={projects.title}
+            key={project.title || i}
             style={{ cursor: "pointer" }}
           >
             <span className="portfolio-item d-block">
-              <div className="foto" onClick={() => detailsModalShow(projects)}>
+              <div className="foto" onClick={() => detailsModalShow(project)}>
                 <div>
                   <img
-                    src={projects.images[0]}
+                    src={project.images && project.images[0] ? project.images[0] : "images/portfolio/p1.jpg"}
                     alt="projectImages"
                     height="230"
-                    style={{marginBottom: 0, paddingBottom: 0, position: 'relative'}}
+                    style={{ marginBottom: 0, paddingBottom: 0, position: 'relative', width: '100%', objectFit: 'cover' }}
                   />
-                  <span className="project-date">{projects.startDate}</span>
+                  <span className="project-date">{project.startDate}</span>
                   <br />
                   <p className="project-title-settings mt-3">
-                    {projects.title}
+                    {project.title}
                   </p>
                 </div>
               </div>

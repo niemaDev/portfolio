@@ -1,118 +1,154 @@
 {
-    "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
-      "section_name": {
-        "about": "About me",
-        "projects": "Projects",
-        "skills": "Skills",
-        "experience": "Experience"
-      }
+  "basic_info": {
+    "description_header": "Hi",
+    "description": "Full stack web developer and Computer Engineering student at Bahir Dar Institute of Technology, building and deploying web and mobile applications for real clients. Currently a web development intern at Dream More, working with React.js, Tailwind CSS, Node.js, Express, and MongoDB. Experienced with full-stack e-commerce platforms, booking systems, and management dashboards.",
+    "section_name": {
+      "about": "About Me",
+      "projects": "Projects",
+      "skills": "Skills & Expertise",
+      "experience": "Experience"
+    }
+  },
+  "projects": [
+  
+    {
+      "title": "TanaGebeya E-commerce Platform",
+      "startDate": "2026",
+      "description": "A full-stack e-commerce store with product management, shopping cart, payment integration, and admin dashboard.",
+      "images": [
+        "images/portfolio/tanagebeya.jpg"
+      ],
+      "url": "https://tana-gebeya.infinityfreeapp.com",
+      "sourceUrl": "https://github.com/niema-dev",
+      "technologies": [
+        { "class": "devicon-react-original", "name": "React.js" },
+        { "class": "devicon-php-plain", "name": "PHP" },
+        { "class": "devicon-mysql-plain", "name": "MySQL" }
+      ]
     },
-    "projects": [
-      {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
-        "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
-        ]
-      },
-      {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
-        "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
-        ]
-      }
-    ]
-  }
+    {
+      "title": "HabeshaTour Management System",
+      "startDate": "2026",
+      "description": "Tour management system for booking tours, managing itineraries, and handling customer reservations.",
+      "images": [
+        "images/portfolio/habeshatour.jpg"
+      ],
+      "url": "https://habesha-tours.infinityfreeapp.com",
+      "sourceUrl": "https://github.com/niema-dev",
+      "technologies": [
+        { "class": "devicon-react-original", "name": "React.js" },
+        { "class": "devicon-php-plain", "name": "PHP" },
+        { "class": "devicon-mysql-plain", "name": "MySQL" }
+      ]
+    },
+    {
+      "title": "habesha-coffee-house",
+      "startDate": "2026",
+      "description": "A website for an authentic Ethiopian coffee house in Addis Ababa.",
+      "images": [
+        "images/portfolio/habesha-coffee-house.jpg"
+      ],
+      "url": "https://habesha-coffee-house.vercel.app/",
+      "sourceUrl": "https://github.com/niema-dev",
+      "technologies": [
+        { "class": "devicon-react-original", "name": "React.js" },
+        { "class": "devicon-tailwindcss-plain", "name": "TailwindCSS" }
+      ]
+    },
+    {
+      "title": "Al-Munazzam Islamic To-Do App",
+      "startDate": "2025",
+      "description": "A purpose-driven task management application designed to help users plan their day with intention and discipline.",
+      "images": [
+        "images/portfolio/almunazzam.jpg"
+      ],
+      "url": "https://islamic-to-do-five.vercel.app/",
+      "sourceUrl": "https://github.com/niema-dev",
+      "technologies": [
+        { "class": "devicon-react-original", "name": "React.js" },
+        { "class": "devicon-tailwindcss-plain", "name": "TailwindCSS" }
+      ]
+    },
+    {
+      "title": "MD Water Well Drilling Website",
+      "startDate": "2025",
+      "description": "A responsive landing page and corporate website built for MD Water Well Drilling Company located in Burayu, Ethiopia.",
+      "images": [
+        "images/portfolio/mdwater.jpg"
+      ],
+      "url": "https://md-machine.vercel.app/",
+      "sourceUrl": "https://github.com/niema-dev",
+      "technologies": [
+        { "class": "devicon-html5-plain", "name": "HTML5" },
+        { "class": "devicon-css3-plain", "name": "CSS3" },
+        { "class": "devicon-javascript-plain", "name": "JavaScript" }
+      ]
+    },
+    {
+      "title": "Wholesale Inventory Mobile App",
+      "startDate": "2026",
+      "description": "An offline-first mobile application built for a wholesaler client featuring encrypted local SQLite storage and Google Drive backup integration.",
+      "images": [
+        "images/portfolio/wholesale.jpg"
+      ],
+      "url": "https://github.com/niemaDev/wholesaler_app",
+      "sourceUrl": "https://github.com/niema-dev",
+      "technologies": [
+        { "class": "devicon-react-original", "name": "React Native" },
+        { "class": "devicon-nodejs-plain", "name": "Node.js" },
+        { "class": "devicon-express-original", "name": "Express" }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Dream More",
+      "title": "Web Developer Intern",
+      "years": "May 2026 - Present",
+      "mainTech": [
+        "React.js",
+        "Tailwind CSS"
+      ],
+      "technologies": [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Git",
+        "GitHub"
+      ],
+      "description": "Building and shipping features for the Dream More platform, developing Admin Dashboards, user flows, and client-facing interfaces."
+    },
+    {
+      "company": "Freelance & Client Projects",
+      "title": "Full Stack Web & Mobile Developer",
+      "years": "2025 - Present",
+      "mainTech": [
+        "React Native (Expo)",
+        "React.js"
+      ],
+      "technologies": [
+        "SQLite",
+        "Node.js",
+        "Express",
+        "Google Drive API",
+        "PHP"
+      ],
+      "description": "Developed an offline-first mobile app with encrypted local SQLite storage and Google Drive backup for a wholesaler. Built a responsive website for MD Water Well Drilling Company in Burayu, Ethiopia, and worked on numerous other client projects."
+    },
+    {
+      "company": "Hackathons & Competitions",
+      "title": "Competitive Frontend Developer & Participant",
+      "years": "2025 - 2026",
+      "mainTech": [
+        "React.js",
+        "Tailwind CSS"
+      ],
+      "technologies": [
+        "Cursor AI",
+        "NSDA Portal",
+        "BIT AI Hackathon"
+      ],
+      "description": "Full-stack web developer, cybersecurity enthusiast, and Computer Engineering student at Bahir Dar Institute of Technology, building and deploying web and mobile applications for real clients. Gained hands-on cybersecurity experience through the INSA Cyber Summer Camp. Currently a web development intern at Dream More, working with React.js, Tailwind CSS, Node.js, Express, and MongoDB. Actively participated and led frontend development in prominent hackathons including Cursor, NSDA, and BIT AI hackathons, building high-impact MVPs under strict deadlines. Experienced with full-stack e-commerce platforms, booking systems, and management dashboards."
+    }
+  ]
+}

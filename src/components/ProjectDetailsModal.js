@@ -4,16 +4,22 @@ import AwesomeSlider from "react-awesome-slider";
 import AwesomeSliderStyles from "../scss/light-slider.scss";
 import AwesomeSliderStyles2 from "../scss/dark-slider.scss";
 import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
+
 class ProjectDetailsModal extends Component {
   render() {
+    let tech = [];
+    let img = [];
+    let title = "";
+    let description = "";
+    let url = "";
+
     if (this.props.data) {
-      const technologies = this.props.data.technologies;
-      const images = this.props.data.images;
-      var title = this.props.data.title;
-      var description = this.props.data.description;
-      var url = this.props.data.url;
+      title = this.props.data.title;
+      description = this.props.data.description;
+      url = this.props.data.url;
+      
       if (this.props.data.technologies) {
-        var tech = technologies.map((icons, i) => {
+        tech = this.props.data.technologies.map((icons, i) => {
           return (
             <li className="list-inline-item mx-3" key={i}>
               <span>
@@ -28,13 +34,15 @@ class ProjectDetailsModal extends Component {
             </li>
           );
         });
-        if (this.props.data.images) {
-          var img = images.map((elem, i) => {
-            return <div key={i} data-src={elem} />;
-          });
-        }
+      }
+
+      if (this.props.data.images) {
+        img = this.props.data.images.map((elem, i) => {
+          return <div key={i} data-src={elem} />;
+        });
       }
     }
+
     return (
       <Modal
         {...this.props}

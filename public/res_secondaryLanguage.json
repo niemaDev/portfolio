@@ -1,116 +1,114 @@
 {
-    "basic_info": {
-      "description_header": "Cześć",
-      "description": "👋 Jestem Davina Griss. Fikcyjna osoba na potrzeby demonstracji. Pracuję z najnowszymi frameworkami front-end takimi jak Angular, React i Vue. To co teraz widzisz to szablon portfolio od Dorota1997. Jeżeli podoba Ci się ten szablon portfolio nie zapomnij o ⭐, żeby było bardziej rozpoznawalne dla innych użytkowników. Dzięki 💜",
-      "section_name": {
-        "about": "O mnie",
-        "projects": "Projekty",
-        "skills": "Umiejętności",
-        "experience": "Doświadczenie"
-      }
+  "basic_info": {
+    "description_header": "Hi, I'm Nimet",
+    "description": "Full stack web developer and Computer Engineering student at Bahir Dar Institute of Technology, building and deploying web and mobile applications for real clients. Currently a web development intern at Dream More, working with React.js, Tailwind CSS, Node.js, Express, and MongoDB[cite: 16]. Experienced with full-stack e-commerce platforms, booking systems, and management dashboards.",
+    "section_name": {
+      "about": "About Me",
+      "projects": "Projects",
+      "skills": "Skills & Expertise",
+      "experience": "Experience"
+    }
+  },
+  "projects": [
+    {
+      "title": "TanaGebeya E-commerce Platform",
+      "startDate": "2026",
+      "description": "A full-stack store with product management, shopping cart, payment integration, and admin dashboard[cite: 13, 16].",
+      "images": [
+        "images/portfolio/p1.jpg",
+        "images/portfolio/p2.jpg"
+      ],
+      "url": "https://github.com/niema-dev",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React.js"
+        },
+        {
+          "class": "devicon-php-plain",
+          "name": "PHP"
+        },
+        {
+          "class": "devicon-mysql-plain",
+          "name": "MySQL"
+        }
+      ]
     },
-    "projects": [
-      {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
-        "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Osobisty projekt na przedmiot ze studiów. Byłam odpowiedzilna za testowanie aplikacji, która optymalizuje zdjęcia z pomocą popularnych algorytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "Jedna z pierwszych aplikacji nad którymi pracowałam na stażu. Musiałam przygotować front-end dla aplikacji, która pokazuje modele 3D znanych budynków. To był także mój pierwszy projekt w frameworku Angular. Dużo się nauczyłam!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - obecnie",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          "Angular Material"
-        ]
-      },
-      {
-        "company": "Serros Solutions",
-        "title": "Stażystka",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "Swagger",
-          "JavaScript",
-          "DHTMLX Gantt"
-        ]
-      }
-    ]
-  }
+    {
+      "title": "HabeshaTour Management System",
+      "startDate": "2026",
+      "description": "Tour management system for booking tours, managing itineraries, and handling customer reservations[cite: 13, 16].",
+      "images": [
+        "images/portfolio/p1.jpg",
+        "images/portfolio/p2.jpg"
+      ],
+      "url": "https://github.com/niema-dev",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React.js"
+        },
+        {
+          "class": "devicon-php-plain",
+          "name": "PHP"
+        },
+        {
+          "class": "devicon-mysql-plain",
+          "name": "MySQL"
+        }
+      ]
+    },
+    {
+      "title": "Al-Munazzam Islamic To-Do App",
+      "startDate": "2025",
+      "description": "A purpose-driven task management application designed to help users plan their day with intention and discipline[cite: 13, 16].",
+      "images": [
+        "images/portfolio/p1.jpg",
+        "images/portfolio/p2.jpg"
+      ],
+      "url": "https://github.com/niema-dev",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React.js"
+        },
+        {
+          "class": "devicon-tailwindcss-plain",
+          "name": "TailwindCSS"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Dream More",
+      "title": "Web Developer Intern",
+      "years": "May 2026 - Present",
+      "mainTech": [
+        "React.js",
+        "Tailwind CSS"
+      ],
+      "technologies": [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Git",
+        "GitHub"
+      ]
+    },
+    {
+      "company": "Freelance",
+      "title": "Full Stack Web & Mobile Developer",
+      "years": "September 2026 - Present",
+      "mainTech": [
+        "React Native (Expo)"
+      ],
+      "technologies": [
+        "SQLite",
+        "Node.js",
+        "Express",
+        "Google Drive API"
+      ]
+    }
+  ]
+}
